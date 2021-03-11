@@ -1,0 +1,14 @@
+git init -> para iniciar git (importante iniciarlo a la par que el proyecto)
+    git add .-> para agregar a la zona de trabajo todos los archivos del proyecto 
+    git add nombreArchivo  "comentario"-> para agregar un archivo específico
+    (-m es para agregar un comentario entre comilas "comentario")
+    git commit -a -> para realizar commit de todos los archivos en escucha
+
+    una vez creado el repositorio en GitHub, con el link se realiza la subida desde 
+    el repositorio local mediante la consola.
+
+git log --oneline -> para mostrar los commits
+git status -s -> para mostrar el estado de los archivos en la zona de trabajo (ver cambios)
+
+git branch nombreRama -> Para crear una nueva rema del proyecto
+git checkout nombreRama -> Mover el flujo de trabajo hacia otra nombreRama
