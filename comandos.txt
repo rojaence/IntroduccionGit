@@ -1,14 +1,43 @@
-git init -> para iniciar git (importante iniciarlo a la par que el proyecto)
-    git add .-> para agregar a la zona de trabajo todos los archivos del proyecto 
-    git add nombreArchivo  "comentario"-> para agregar un archivo específico
+- git init -> para iniciar git (importante iniciarlo a la par que el proyecto)
+    - git add .-> para agregar a la zona de trabajo todos los archivos del proyecto 
+    - git add nombreArchivo -> para agregar un archivo específico
+    - git commit -m -> para realizar commit de todos los archivos en escucha
     (-m es para agregar un comentario entre comilas "comentario")
-    git commit -a -> para realizar commit de todos los archivos en escucha
 
     una vez creado el repositorio en GitHub, con el link se realiza la subida desde 
     el repositorio local mediante la consola.
+    - git remote add origin "link"
+    - git push origin master -> para subir el repositorio a la nube
 
-git log --oneline -> para mostrar los commits
-git status -s -> para mostrar el estado de los archivos en la zona de trabajo (ver cambios)
+    En local:
+    - git add. -> agregar archivos
+    - git commit -m -> agregar comit y comentario
+    - git push 
 
-git branch nombreRama -> Para crear una nueva rema del proyecto
-git checkout nombreRama -> Mover el flujo de trabajo hacia otra nombreRama
+    A la nube:
+    - git pull
+
+    Tags Especificar versiones
+    -  git tag "Nombre de version" -m"comentario"
+    - git push --tags
+
+    Modificar comentario de un commit
+    - git commit --amend 
+    - :i
+    - Editar nombre
+    - ESC
+    - :wq
+
+    Restaurar borra lo nuevo "forma local"
+    -git reset --hard (comit de referncia "No debe llevar ni parentesis ni corchetes")
+
+- git log --oneline -> para mostrar los commits
+- git status -s -> para mostrar el estado de los archivos en la zona de trabajo (ver cambios)
+
+- git branch nombreRama -> Para crear una nueva rema del proyecto
+- git checkout nombreRama -> Mover el flujo de trabajo hacia otra nombreRama
+- git brach o git log --oneline -> para confirmar la creación de la nombreRama
+
+-git merche -> combinar ramas 
+    Para hacer la unión de las ramas se debe hacer desde la rama master
+    - git merche nombreRama
