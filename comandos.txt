@@ -38,6 +38,6 @@
 - git checkout nombreRama -> Mover el flujo de trabajo hacia otra nombreRama
 - git brach o git log --oneline -> para confirmar la creación de la nombreRama
 
--git merche -> combinar ramas 
+-git merge -> combinar ramas 
     Para hacer la unión de las ramas se debe hacer desde la rama master
-    - git merche nombreRama
+    - git merge nombreRama
